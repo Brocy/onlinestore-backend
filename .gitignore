@@ -12,7 +12,12 @@ Icon
 .Trashes
 ._*
 
-db/*
+############################
+# Postgres Volumes
+############################
+
+postgres-data/*
+!postgres-data/.gitkeep
 
 ############################
 # Linux
