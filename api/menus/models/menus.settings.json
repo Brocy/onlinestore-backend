@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "name": "Menus",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "required": true
+    },
+    "Link": {
+      "type": "dynamiczone",
+      "components": [
+        "menus.simple-link",
+        "menus.page-link"
+      ],
+      "required": true,
+      "max": 1,
+      "min": 1
+    }
+  }
+}

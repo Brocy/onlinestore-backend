@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_pages_products_lists",
+  "info": {
+    "name": "ProductsList",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

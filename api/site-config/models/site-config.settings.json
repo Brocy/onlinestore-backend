@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_configs",
+  "info": {
+    "name": "Site Config",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Theme": {
+      "type": "string"
+    },
+    "Homepage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.page-selector"
+    }
+  }
+}

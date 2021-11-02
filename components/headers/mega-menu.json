@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_headers_mega_menus",
+  "info": {
+    "name": "MegaMenu",
+    "icon": "digital-tachograph"
+  },
+  "options": {},
+  "attributes": {
+    "BannerImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "MenuGroup": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menus.menu-group"
+    }
+  }
+}

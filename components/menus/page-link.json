@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_menus_page_links",
+  "info": {
+    "name": "PageLink",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "model": "pages"
+    }
+  }
+}

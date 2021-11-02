@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pages_helps",
+  "info": {
+    "name": "help",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "HelpButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.help-button"
+    }
+  }
+}

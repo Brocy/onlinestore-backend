@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_menus_menu_groups",
+  "info": {
+    "name": "MenuGroup",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "menus": {
+      "collection": "menus"
+    },
+    "group_name": {
+      "type": "string"
+    }
+  }
+}

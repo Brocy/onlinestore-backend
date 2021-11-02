@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_pages_heroes",
+  "info": {
+    "name": "Hero",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

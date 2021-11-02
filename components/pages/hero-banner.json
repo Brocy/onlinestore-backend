@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_pages_hero_banners",
+  "info": {
+    "name": "HeroBanner",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "Example": {
+      "type": "string"
+    }
+  }
+}

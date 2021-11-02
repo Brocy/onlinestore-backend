@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_headers_header_items",
+  "info": {
+    "name": "Header Item",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "menu": {
+      "model": "menus"
+    },
+    "mega_menus": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menus.menu-group"
+    },
+    "name": {
+      "type": "string"
+    },
+    "mega_banner_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

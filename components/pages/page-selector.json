@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_pages_page_selectors",
+  "info": {
+    "name": "PageSelector",
+    "icon": "project-diagram"
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "model": "pages"
+    }
+  }
+}

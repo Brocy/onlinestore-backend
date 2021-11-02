@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_menus_simple_links",
+  "info": {
+    "name": "SimpleLink",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Url": {
+      "type": "string"
+    }
+  }
+}
